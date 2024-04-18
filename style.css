@@ -1,6 +1,32 @@
 html {
   box-sizing: border-box;
 }
+
+
+/* Stilurile CSS */
+  .contact-box {
+    text-align: center;
+  }
+  .contact-images {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-images li {
+    margin-right: 20px;
+  }
+  .contact-images li:last-child {
+    margin-right: 0;
+  }
+  .contact-images img {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+
+
 *,
 *:before,
 *:after {
